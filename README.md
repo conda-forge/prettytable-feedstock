@@ -1,7 +1,7 @@
 About prettytable
 =================
 
-Home: http://code.google.com/p/prettytable
+Home: https://code.google.com/archive/p/prettytable
 
 Package license: BSD 3-Clause
 
@@ -10,6 +10,18 @@ Feedstock license: BSD 3-Clause
 Summary: A simple Python library for easily displaying tabular data in a visually appealing ASCII table format
 
 
+
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/prettytable-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/prettytable-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/prettytable-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/prettytable-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/prettytable-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/prettytable-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/prettytable/badges/version.svg)](https://anaconda.org/conda-forge/prettytable)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/prettytable/badges/downloads.svg)](https://anaconda.org/conda-forge/prettytable)
 
 Installing prettytable
 ======================
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `prettytable` available on your pl
 ```
 conda search prettytable --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/prettytable-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/prettytable-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/prettytable-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/prettytable-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/prettytable-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/prettytable-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/prettytable/badges/version.svg)](https://anaconda.org/conda-forge/prettytable)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/prettytable/badges/downloads.svg)](https://anaconda.org/conda-forge/prettytable)
 
 
 Updating prettytable-feedstock
