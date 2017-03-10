@@ -1,7 +1,7 @@
 About prettytable
 =================
 
-Home: https://code.google.com/archive/p/prettytable
+Home: http://code.google.com/p/prettytable
 
 Package license: BSD 3-Clause
 
