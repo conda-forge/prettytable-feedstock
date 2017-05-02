@@ -14,9 +14,9 @@ Summary: A simple Python library for easily displaying tabular data in a visuall
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/prettytable-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/prettytable-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/prettytable-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/prettytable-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/prettytable-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/prettytable-feedstock/branch/master)
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/tmp3e46qaaa-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/tmp3e46qaaa-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/tmp3e46qaaa-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/tmp3e46qaaa-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/tmp3e46qaaa-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/tmp3e46qaaa-feedstock/branch/master)
 
 Current release info
 ====================
