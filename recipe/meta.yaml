@@ -2,7 +2,7 @@
 {% set version = "0.7.2" %}
 {% set hash_type = "sha256" %}
 {% set hash = "2d5460dc9db74a32bcc8f9f67de68b2c4f4d2f01fa3bd518764c69156d9cacd9" %}
-{% set build = 1 %}
+{% set build = 2 %}
 
 
 package:
@@ -15,12 +15,14 @@ source:
   {{ hash_type}}: {{ hash }}
 
 build:
+  noarch: python
   number: {{ build }}
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 
 requirements:
-  build:
+  host:
+    - pip
     - python
     - setuptools
 
