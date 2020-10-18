@@ -18,15 +18,16 @@ build:
   number: {{ build }}
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
-
 requirements:
   host:
     - pip
     - python
-    - setuptools
+    - setuptools_scm
 
   run:
     - python
+    - setuptools
+    - wcwidth
   run_constrained:
     - ptable >=9999
 
