@@ -36,10 +36,9 @@ test:
     - prettytable
 
 about:
-  home: http://code.google.com/p/prettytable
+  home: https://github.com/jazzband/prettytable
   license_file: COPYING
-  license: BSD 3-Clause
-  license_family: BSD
+  license: BSD-3-Clause
   summary: A simple Python library for easily displaying tabular data in a visually appealing ASCII table format
 
 extra:
