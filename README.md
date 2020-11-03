@@ -1,9 +1,9 @@
 About prettytable
 =================
 
-Home: http://code.google.com/p/prettytable
+Home: https://github.com/jazzband/prettytable
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/prettytable-feedstock/blob/master/LICENSE.txt)
 
@@ -115,6 +115,7 @@ Feedstock Maintainers
 =====================
 
 * [@anguslees](https://github.com/anguslees/)
+* [@ericpre](https://github.com/ericpre/)
 * [@licode](https://github.com/licode/)
 * [@pmlandwehr](https://github.com/pmlandwehr/)
 
