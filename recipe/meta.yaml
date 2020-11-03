@@ -1,8 +1,5 @@
 {% set name = "prettytable" %}
-{% set version = "0.7.2" %}
-{% set hash_type = "sha256" %}
-{% set hash = "2d5460dc9db74a32bcc8f9f67de68b2c4f4d2f01fa3bd518764c69156d9cacd9" %}
-{% set build = 3 %}
+{% set version = "1.0.1" %}
 
 
 package:
@@ -10,24 +7,23 @@ package:
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  {{ hash_type}}: {{ hash }}
+  sha256: 6bb7f539903cb031fecb855b615cbcac8cd245ebc6fa51c6e23ab3386db89771
 
 build:
   noarch: python
-  number: {{ build }}
-  script: python -m pip install --no-deps --ignore-installed .
-
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - pip
-    - python
-    - setuptools
-
+    - python >=3.5
+    - setuptools_scm
   run:
-    - python
+    - python >=3.5
+    - setuptools
+    - wcwidth
   run_constrained:
     - ptable >=9999
 
@@ -36,14 +32,14 @@ test:
     - prettytable
 
 about:
-  home: http://code.google.com/p/prettytable
+  home: https://github.com/jazzband/prettytable
   license_file: COPYING
-  license: BSD 3-Clause
-  license_family: BSD
-  summary: 'A simple Python library for easily displaying tabular data in a visually appealing ASCII table format'
+  license: BSD-3-Clause
+  summary: A simple Python library for easily displaying tabular data in a visually appealing ASCII table format
 
 extra:
   recipe-maintainers:
     - anguslees
     - pmlandwehr
     - licode
+    - ericpre
