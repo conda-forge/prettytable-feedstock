@@ -1,5 +1,5 @@
 {% set name = "prettytable" %}
-{% set version = "2.5.0" %}
+{% set version = "3.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f7da57ba63d55116d65e5acb147bfdfa60dceccabf0d607d6817ee2888a05f2c
+  sha256: 69fe75d78ac8651e16dd61265b9e19626df5d630ae294fc31687aa6037b97a58
 
 build:
   noarch: python
@@ -18,10 +18,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.5
+    - python >=3.7
     - setuptools_scm
   run:
-    - python >=3.5
+    - python >=3.7
     - importlib-metadata
     - wcwidth
   run_constrained:
