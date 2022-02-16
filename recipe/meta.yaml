@@ -1,5 +1,5 @@
 {% set name = "prettytable" %}
-{% set version = "3.1.0" %}
+{% set version = "3.1.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7c2e104031614b5ba013516440241702bfaa369534069de3bacca015ffd0f27b
+  sha256: 43c9e23272ca253d038ae76fe3adde89794e92e7fcab2ddf5b94b38642ef4f21
 
 build:
   noarch: python
