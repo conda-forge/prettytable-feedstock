@@ -28,6 +28,10 @@ requirements:
     - ptable >=9999
 
 test:
+  requires:
+    - pip
+  commands:
+    - pip check
   imports:
     - prettytable
 
