@@ -40,6 +40,7 @@ about:
   home: https://pypi.org/project/prettytable/
   license_file: COPYING
   license: BSD-3-Clause
+  license_family: BSD
   summary: Display tabular data in a visually appealing ASCII table format
   description: |
     A simple Python library for easily displaying tabular data in
