@@ -27,6 +27,8 @@ requirements:
     - importlib-metadata
     - wcwidth
   run_constrained:
+    # Following from conda-forge
+    # Prevent ptable from interfering with prettytable
     - ptable >=9999
 
 test:
