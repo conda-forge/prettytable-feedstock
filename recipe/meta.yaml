@@ -19,8 +19,9 @@ requirements:
   host:
     - pip
     - python
-    - setuptools_scm
     - wheel
+    - hatchling
+    - hatch-vcs
   run:
     - python
     - importlib-metadata
