@@ -24,7 +24,7 @@ requirements:
     - hatch-vcs
   run:
     - python
-    - importlib-metadata
+    - importlib-metadata  # [py<38]
     - wcwidth
   run_constrained:
     # Following from conda-forge
