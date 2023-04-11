@@ -34,7 +34,7 @@ test:
 
 about:
   home: https://github.com/jazzband/prettytable
-  license_file: COPYING
+  license_file: LICENSE
   license: BSD-3-Clause
   summary: A simple Python library for easily displaying tabular data in a visually appealing ASCII table format
 
