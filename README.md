@@ -1,11 +1,11 @@
-About prettytable
-=================
+About prettytable-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/prettytable-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jazzband/prettytable
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/prettytable-feedstock/blob/main/LICENSE.txt)
 
 Summary: A simple Python library for easily displaying tabular data in a visually appealing ASCII table format
 
