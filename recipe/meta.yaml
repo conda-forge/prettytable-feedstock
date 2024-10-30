@@ -18,11 +18,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.9
     - hatchling
     - hatch-vcs
   run:
-    - python >=3.8
+    - python >=3.9
     - wcwidth
   run_constrained:
     - ptable >=9999
