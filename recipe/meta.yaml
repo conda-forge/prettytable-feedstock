@@ -30,6 +30,10 @@ requirements:
 test:
   imports:
     - prettytable
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/prettytable/prettytable
