@@ -3,7 +3,7 @@ About prettytable-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/prettytable-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/jazzband/prettytable
+Home: https://github.com/prettytable/prettytable
 
 Package license: BSD-3-Clause
 
