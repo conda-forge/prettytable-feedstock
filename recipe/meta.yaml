@@ -1,6 +1,5 @@
 {% set name = "prettytable" %}
-{% set version = "3.5.0" %}
-
+{% set version = "3.16.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,23 +7,21 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 52f682ba4efe29dccb38ff0fe5bac8a23007d0780ff92a8b85af64bc4fc74d72
+  sha256: 3c64b31719d961bf69c9a7e03d0c1e477320906a98da63952bc6698d6164ff57
 
 build:
-  skip: true  # [py<37]
+  skip: true  # [py<39]
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv
 
 requirements:
   host:
     - pip
     - python
-    - wheel
-    - hatchling
+    - hatchling >=1.27
     - hatch-vcs
   run:
     - python
-    - importlib-metadata  # [py<38]
     - wcwidth
   run_constrained:
     # Following from conda-forge
@@ -34,13 +31,15 @@ requirements:
 test:
   requires:
     - pip
+    - pytest
   commands:
     - pip check
+    - pytest -v
   imports:
     - prettytable
 
 about:
-  home: https://pypi.org/project/prettytable/
+  home: https://github.com/prettytable/prettytable
   license_file: COPYING
   license: BSD-3-Clause
   license_family: BSD
@@ -48,8 +47,8 @@ about:
   description: |
     A simple Python library for easily displaying tabular data in
     a visually appealing ASCII table format
-  dev_url: https://github.com/jazzband/prettytable
-  doc_url: https://github.com/jazzband/prettytable/blob/master/README.md
+  dev_url: https://github.com/prettytable/prettytable
+  doc_url: https://github.com/prettytable/prettytable
 
 extra:
   recipe-maintainers:
