@@ -23,7 +23,7 @@ requirements:
     - hatch-vcs
   run:
     - python >={{ python_min }}
-    - wcwidth
+    - wcwidth >=0.3.5
   run_constrained:
     - ptable >=9999
 
